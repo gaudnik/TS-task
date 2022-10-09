@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/ap.css">
 </head>
 <body>
-    
+    <form class="container">
+        <label for="name">Task:</label>
+        <input type="text" id="name">
+        <button type="button">Add</button>
+        <p>ToDo:</p>
+        <ul class="tasks">
+            <li>
+                <label for="task-1">Project 1</label>
+                <input type="checkbox" id="task-1" name="Project 1">
+            </li>
+        </ul>
+    </form>
+    <script type="module" src="./dist/app.js"></script>
 </body>
 </html>
